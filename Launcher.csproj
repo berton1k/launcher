@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Version>0.0.039</Version>
+    <FileVersion>0.0.039</FileVersion>
+    <AssemblyVersion>0.0.039.0</AssemblyVersion>
+    <PublishSingleFile>true</PublishSingleFile>
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+    <IncludeAllContentForSelfExtract>true</IncludeAllContentForSelfExtract>
+    <EnableCompressionInSingleFile>true</EnableCompressionInSingleFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="AssetsEncrypted\**\*">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>Always</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="play.svg" />
+    <Resource Include="shop.svg" />
+    <Resource Include="news.svg" />
+    <Resource Include="forum.svg" />
+    <Resource Include="discord.svg" />
+    <Resource Include="mods.svg" />
+    <Resource Include="settinsg.svg" />
+  </ItemGroup>
+
+</Project>
