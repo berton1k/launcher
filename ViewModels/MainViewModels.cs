@@ -439,7 +439,7 @@ public class MainViewModel : INotifyPropertyChanged
         {
             Process.Start(new ProcessStartInfo
             {
-                FileName = "https://discord.gg/B8myaMJ8qx",
+                FileName = "https://discord.gg/",
                 UseShellExecute = true
             });
         }
